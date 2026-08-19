@@ -1,0 +1,6 @@
+{
+  "name": "GFCW Law",
+  "description": "Premier civil and business litigation law firm representing corporations, executives, and institutions in high-stakes disputes and corporate governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
