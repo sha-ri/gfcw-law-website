@@ -35,7 +35,7 @@ export const PracticeAreas: React.FC<PracticeAreasProps> = ({
   }, [selectedCategory, searchQuery]);
 
   return (
-    <section id="practices" className="py-24 bg-[#070d18] border-b border-[#1e2f4d] relative">
+    <section id="practices" className="py-16 bg-[#070d18] border-b border-[#1e2f4d] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

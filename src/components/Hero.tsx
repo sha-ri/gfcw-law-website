@@ -8,7 +8,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onSelectPartner }) => {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-[#070d18] bg-subtle-grid border-b border-[#1e2f4d]">
+    <section className="relative pt-28 pb-14 lg:pt-36 lg:pb-20 overflow-hidden bg-[#070d18] bg-subtle-grid border-b border-[#1e2f4d]">
       {/* Subtle architectural ambient light */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-[#1e3a8a]/10 blur-[140px] pointer-events-none -z-10" />
       <div className="absolute top-10 right-10 w-96 h-96 bg-[#c5a059]/5 blur-[120px] pointer-events-none -z-10" />

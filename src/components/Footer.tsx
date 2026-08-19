@@ -18,8 +18,8 @@ export const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer className="bg-[#070d18] text-[#f1f5f9] border-t border-[#1e2f4d] relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-10">
           
           {/* Column 1: The Firm & Owners */}
           <div className="lg:col-span-2 space-y-4">

@@ -98,7 +98,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectPartner }) => {
           </nav>
 
           {/* Right CTAs */}
-          <div className="hidden md:flex items-center space-x-3.5">
+          <div className="hidden md:flex flex-col items-end space-y-1.5">
             <a
               href="tel:+14075028068"
               id="navbar-intake-cta-btn"
@@ -108,6 +108,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectPartner }) => {
                 <Phone className="w-3.5 h-3.5" />
                 <span>(407) 502-8068</span>
               </span>
+            </a>
+            <a
+              href="mailto:info@gfcwlaw.com"
+              className="text-[10px] tracking-wider text-[#94a3b8] hover:text-[#c5a059] transition-colors font-sans"
+            >
+              info@gfcwlaw.com
             </a>
           </div>
 
