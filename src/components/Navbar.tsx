@@ -102,7 +102,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectPartner }) => {
             <a
               href="tel:+14075028068"
               id="navbar-intake-cta-btn"
-              className="relative group overflow-hidden bg-[#c5a059] text-[#070d18] font-bold text-[11px] tracking-[0.2em] uppercase px-5 py-2.5 hover:bg-[#d6b572] transition-all duration-200 shadow-md"
+              className="relative group overflow-hidden bg-[#c5a059] text-[#070d18] font-bold text-xs tracking-[0.2em] uppercase px-5 py-2.5 hover:bg-[#d6b572] transition-all duration-200 shadow-md"
             >
               <span className="relative z-10 flex items-center space-x-1.5">
                 <Phone className="w-3.5 h-3.5" />

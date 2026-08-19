@@ -122,7 +122,7 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
             <a
               href="tel:+14075028068"
-              className="mt-4 w-full bg-[#c5a059] text-[#070d18] font-bold text-[11px] tracking-[0.2em] uppercase px-5 py-2.5 hover:bg-[#d6b572] transition-all duration-200 shadow-md flex items-center justify-center space-x-1.5"
+              className="mt-4 w-full bg-[#c5a059] text-[#070d18] font-bold text-xs tracking-[0.2em] uppercase px-5 py-2.5 hover:bg-[#d6b572] transition-all duration-200 shadow-md flex items-center justify-center space-x-1.5"
             >
               <Phone className="w-3.5 h-3.5" />
               <span>(407) 502-8068</span>
