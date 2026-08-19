@@ -127,6 +127,12 @@ export const Footer: React.FC<FooterProps> = ({
               <Phone className="w-3.5 h-3.5" />
               <span>(407) 502-8068</span>
             </a>
+            <a
+              href="mailto:info@gfcwlaw.com"
+              className="mt-3 block text-center text-[11px] tracking-wide text-[#94a3b8] hover:text-[#c5a059] transition-colors font-sans"
+            >
+              info@gfcwlaw.com
+            </a>
           </div>
 
         </div>
