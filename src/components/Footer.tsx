@@ -18,29 +18,6 @@ export const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer className="bg-[#070d18] text-[#f1f5f9] border-t border-[#1e2f4d] relative">
-      {/* Top Banner / Emergency Contact */}
-      <div className="border-b border-[#1e2f4d] bg-[#0a1120]/80 py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center text-center md:text-left">
-            <img
-              src={gfcwLockup}
-              alt="GFCW Law – Civil & Business Litigation"
-              className="h-10 w-auto"
-            />
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <a
-              href="tel:+14075028068"
-              className="px-6 py-2 bg-[#c5a059] hover:bg-[#d6b572] text-[#070d18] font-bold text-xs uppercase tracking-[0.15em] transition-all shadow-md flex items-center space-x-1.5"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span>(407) 502-8068</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
           
@@ -143,6 +120,13 @@ export const Footer: React.FC<FooterProps> = ({
                 </div>
               ))}
             </div>
+            <a
+              href="tel:+14075028068"
+              className="mt-4 w-full bg-[#c5a059] text-[#070d18] font-bold text-[11px] tracking-[0.2em] uppercase px-5 py-2.5 hover:bg-[#d6b572] transition-all duration-200 shadow-md flex items-center justify-center space-x-1.5"
+            >
+              <Phone className="w-3.5 h-3.5" />
+              <span>(407) 502-8068</span>
+            </a>
           </div>
 
         </div>
