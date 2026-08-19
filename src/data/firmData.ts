@@ -15,7 +15,7 @@ export const PARTNERS: Partner[] = [
     role: 'Chair, Commercial Litigation Group',
     office: 'Florida',
     phone: '+1 (407) 502-8068',
-    email: 'info@gfcwlaw.com',
+    email: 'zg@gfcwlaw.com',
     experienceYears: 24,
     education: [
       'J.D., University of Florida – Fredric G. Levin College of Law, 2016',
@@ -53,7 +53,7 @@ export const PARTNERS: Partner[] = [
     role: 'Chair, Alternative Dispute Resolution (ADR) Group',
     office: 'Florida',
     phone: '+1 (407) 502-8068',
-    email: 'info@gfcwlaw.com',
+    email: 'sf@gfcwlaw.com',
     experienceYears: 22,
     education: [
       'J.D., University of Loyola Chicago School of Law, 2015',
@@ -90,7 +90,7 @@ export const PARTNERS: Partner[] = [
     role: 'Chair, Fiduciary Claims Group',
     office: 'Florida',
     phone: '+1 (407) 502-8068',
-    email: 'info@gfcwlaw.com',
+    email: 'ac@gfcwlaw.com',
     experienceYears: 20,
     education: [
       'J.D., University of Florida – Fredric G. Levin College of Law, 2022',
@@ -128,7 +128,7 @@ export const PARTNERS: Partner[] = [
     role: 'Chair, Construction Litigation Group',
     office: 'Florida',
     phone: '+1 (407) 502-8068',
-    email: 'info@gfcwlaw.com',
+    email: 'jw@gfcwlaw.com',
     experienceYears: 19,
     education: [
       'J.D., University of Florida, 2016'
