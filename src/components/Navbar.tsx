@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { PARTNERS } from '../data/firmData';
+import gfcwLockup from '../assets/branding/gfcw-lockup-gold-cream.svg';
 
 interface NavbarProps {
   onSelectPartner: (partnerId: string) => void;
@@ -31,18 +32,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectPartner }) => {
         <div className="flex items-center justify-between">
           
           {/* Brand & Crest */}
-          <a href="#" className="flex items-center space-x-3.5 group" id="navbar-brand-link">
-            <div className="w-10 h-10 border border-[#c5a059]/70 bg-[#0f1a2e] flex items-center justify-center text-[#c5a059] font-crest text-sm font-bold tracking-[0.25em] group-hover:border-[#c5a059] group-hover:bg-[#13223d] transition-all shadow-inner">
-              GFCW
-            </div>
-            <div className="flex flex-col">
-              <span className="font-crest text-lg sm:text-xl font-bold tracking-[0.25em] text-[#f1f5f9] group-hover:text-[#c5a059] transition-colors">
-                GFCW LAW
-              </span>
-              <span className="text-[9px] tracking-[0.3em] uppercase text-[#94a3b8] font-sans -mt-0.5">
-                Civil & Business Litigation
-              </span>
-            </div>
+          <a href="#" className="flex items-center group" id="navbar-brand-link">
+            <img
+              src={gfcwLockup}
+              alt="GFCW Law – Civil & Business Litigation"
+              className="h-10 sm:h-11 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation Links */}

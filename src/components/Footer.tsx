@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, ArrowUp } from 'lucide-react';
 import { PARTNERS, OFFICES } from '../data/firmData';
+import gfcwLockup from '../assets/branding/gfcw-lockup-gold-cream.svg';
 
 interface FooterProps {
   onSelectPartner: (partnerId: string) => void;
@@ -20,14 +21,12 @@ export const Footer: React.FC<FooterProps> = ({
       {/* Top Banner / Emergency Contact */}
       <div className="border-b border-[#1e2f4d] bg-[#0a1120]/80 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center space-x-3 text-center md:text-left">
-            <div className="w-10 h-10 border border-[#c5a059]/60 bg-[#0f1a2e] text-[#c5a059] font-crest font-bold text-sm flex items-center justify-center shrink-0">
-              GFCW
-            </div>
-            <div>
-              <p className="text-sm font-serif font-medium text-[#f1f5f9]">GFCW LAW</p>
-              <p className="text-xs text-[#94a3b8] font-sans tracking-wide">Civil & Business Litigation</p>
-            </div>
+          <div className="flex items-center text-center md:text-left">
+            <img
+              src={gfcwLockup}
+              alt="GFCW Law – Civil & Business Litigation"
+              className="h-10 w-auto"
+            />
           </div>
 
           <div className="flex items-center space-x-4">
@@ -47,8 +46,12 @@ export const Footer: React.FC<FooterProps> = ({
           
           {/* Column 1: The Firm & Owners */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center space-x-2">
-              <span className="font-crest text-xl font-bold tracking-[0.3em] text-[#c5a059]">GFCW LAW</span>
+            <div className="flex items-center">
+              <img
+                src={gfcwLockup}
+                alt="GFCW Law – Civil & Business Litigation"
+                className="h-9 w-auto"
+              />
             </div>
             <p className="text-xs leading-relaxed text-[#94a3b8] pr-6 font-sans">
               GFCW Law is a premier law firm dedicated to the defense and prosecution of high-exposure business disputes, commercial breach of contract, fiduciary duties, and corporate governance controversies across Florida.
